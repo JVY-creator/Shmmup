@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: 6701434673270998501
     second: PLayerBullet
+  - first:
+      213: 2567790812786726079
+    second: Shard1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -110,6 +113,27 @@ TextureImporter:
       bones: []
       spriteID: 5e5cdc16457400d50800000000000000
       internalID: 6701434673270998501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shard1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 16
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb41aa5b320a2a320800000000000000
+      internalID: 2567790812786726079
       vertices: []
       indices: 
       edges: []
