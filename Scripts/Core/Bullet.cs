@@ -6,13 +6,12 @@ public class Bullet : MonoBehaviour
 {
     public float damage = 1f;
 
-    private void OnTriggerEnter(Collider other) {
+    private void OnTriggerEnter(Collider other) 
+    {
 
         Item otherItem = other.GetComponent<Item>() ?? other.GetComponentInParent<Item>();
-        if (otherItem != null) {
-            otherItem.SetDamage(damage);
-        }
-
+        otherItem?.SetDamage(damage);
+        
         Destroy(gameObject);
         GetComponent<Explosion>()?.Explode();
     }
