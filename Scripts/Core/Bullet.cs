@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
 
         Item otherItem = other.GetComponent<Item>() ?? other.GetComponentInParent<Item>();
         if (otherItem != null) {
-            otherItem.SetDamage(damage);
+            otherItem.SetDamage(damage * 2.0f);
         }
 
         Destroy(gameObject);
